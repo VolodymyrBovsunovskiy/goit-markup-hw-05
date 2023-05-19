@@ -615,6 +615,11 @@ body {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.portfolio-link:hover .paragraph-portfolio,
+.portfolio-link:focus .paragraph-portfolio {
+  transform: translate(0, 0);
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
